@@ -20,4 +20,6 @@ from django.urls import path, include
 urlpatterns = [
     path('api/v1/platform/', include('platform_app.urls')),
     path('api/v1/mdm/', include('mdm.urls')),
+    path('api/v1/engineering/', include('engineering.urls')),
+    path('api/v1/mes/', include('mes.urls')),
 ]
